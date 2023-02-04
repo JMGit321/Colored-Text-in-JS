@@ -5,6 +5,7 @@
 3. Rodar os seguintes comandos:
 
 `npm i`
+
 `npm run dev`
 
 Vai gerar um `output.png` com o texto colorido
