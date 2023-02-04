@@ -1,0 +1,1430 @@
+{
+  "speakers": [
+    {
+      "speaker_id": 0,
+      "total_time": 6.82,
+      "metrics": {
+        "general_scores": {
+          "elsa": {
+            "eps_score": 76.65,
+            "pronunciation_score": 77.33,
+            "intonation_score": 58.93,
+            "fluency_score": 92.33,
+            "grammar_score": null,
+            "vocabulary_score": null
+          },
+          "cefr": {
+            "overall_cefr": "C1",
+            "pronunciation_cefr": "C1",
+            "intonation_cefr": "B1",
+            "fluency_cefr": "C2",
+            "grammar_cefr": null,
+            "vocabulary_cefr": "B1"
+          },
+          "other_scores": {
+            "ielts_score": 7,
+            "toefl_score": 23,
+            "toeic_score": 180,
+            "pte_score": 65
+          }
+        },
+        "other_metrics": {
+          "pronunciation": {
+            "advanced_pronunciation_score": 0
+          },
+          "fluency": {
+            "words_per_minute": 173,
+            "words_per_minute_min": null,
+            "words_per_minute_max": null
+          },
+          "vocabulary": {
+            "total_words_count": 24,
+            "unique_words_count": 21,
+            "uncommon_words_count": 1,
+            "cefr_distribution": [
+              {
+                "cefr_level": "A1",
+                "percentage": 93
+              },
+              {
+                "cefr_level": "A2",
+                "percentage": 7
+              },
+              {
+                "cefr_level": "B1",
+                "percentage": 0
+              },
+              {
+                "cefr_level": "B2",
+                "percentage": 0
+              },
+              {
+                "cefr_level": "C1",
+                "percentage": 0
+              },
+              {
+                "cefr_level": "C2",
+                "percentage": 0
+              }
+            ]
+          }
+        }
+      },
+      "feedbacks": {
+        "show_transcript": true,
+        "pronunciation": {
+          "top_errors": [
+            {
+              "phoneme": "h",
+              "count": 1,
+              "errors": [
+                {
+                  "type": "substitution",
+                  "error_phoneme": "æ",
+                  "count": 1,
+                  "examples": [
+                    {
+                      "text": "Hello",
+                      "start_index": 0,
+                      "end_index": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "phoneme": "eɪ",
+              "count": 1,
+              "errors": [
+                {
+                  "type": "substitution",
+                  "error_phoneme": "ɪ",
+                  "count": 1,
+                  "examples": [
+                    {
+                      "text": "name",
+                      "start_index": 11,
+                      "end_index": 11
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "phoneme": "m",
+              "count": 1,
+              "errors": [
+                {
+                  "type": "substitution",
+                  "error_phoneme": "n",
+                  "count": 1,
+                  "examples": [
+                    {
+                      "text": "name",
+                      "start_index": 12,
+                      "end_index": 13
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "phoneme": "ə",
+              "count": 1,
+              "errors": [
+                {
+                  "type": "substitution",
+                  "error_phoneme": "ɑ",
+                  "count": 1,
+                  "examples": [
+                    {
+                      "text": "an",
+                      "start_index": 18,
+                      "end_index": 18
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "phoneme": "dʒ",
+              "count": 1,
+              "errors": [
+                {
+                  "type": "substitution",
+                  "error_phoneme": "t",
+                  "count": 1,
+                  "examples": [
+                    {
+                      "text": "German",
+                      "start_index": 38,
+                      "end_index": 38
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "grammar": {
+          "items": []
+        },
+        "vocabulary": {
+          "top_cefr_words": []
+        }
+      },
+      "utterances": [
+        {
+          "utterance_id": 0,
+          "start_time": 1.02,
+          "end_time": 7.84,
+          "start_index": 0,
+          "end_index": 100,
+          "text": "Hello, my name is an I live in so I'm German American, and I am working here with a great team in PO.",
+          "result": {
+            "speed_metrics": {
+              "words_per_minute": 184.99,
+              "syllables_per_minute": 233.24,
+              "phones_per_minute": 522.79,
+              "articulated_words_per_minute": 203.84,
+              "articulated_syllables_per_minute": 257.02,
+              "articulated_phones_per_minute": 576.07
+            },
+            "pronunciation_rate_metrics": {
+              "correct_words_per_minute": 136.73,
+              "correct_syllables_per_minute": 168.9,
+              "correct_phones_per_minute": 410.19,
+              "correct_words_ratio": 0.739,
+              "correct_syllables_ratio": 0.724,
+              "correct_phones_ratio": 0.785
+            },
+            "pausing_metrics": {
+              "pause_ratio": 0.092,
+              "pause_ratio_without_initial_sil": 0.007,
+              "pausing_score_percentage": 73.077
+            },
+            "initial_silence": true,
+            "total_time": 7.95,
+            "has_speech": true,
+            "decision": "warning",
+            "nativeness_score": 77.33,
+            "nativeness_score_partial": 80.55,
+            "ipa": "hɛˈloʊ maɪ neɪm ɪz ən aɪ lɪv ən soʊ aɪm ˈdʒɝ.mən əˈmɛ.rɪ.kən ænd aɪ æm ˈwɝ.kɪŋ hir wɪθ ə greɪt tim ən poʊ",
+            "intonation_score": 58.857,
+            "fluency_score": 64.496,
+            "ielts_score": 6.5,
+            "words": [
+              {
+                "start_index": 0,
+                "end_index": 4,
+                "start_time": 1.02,
+                "end_time": 1.37,
+                "word": "HELLO",
+                "text": "Hello",
+                "ipa": "hɛˈloʊ",
+                "trans_arpabet": "HH EH0 L OW1",
+                "nativeness_score": 70,
+                "decision": "warning",
+                "phonemes": [
+                  {
+                    "text": "H",
+                    "start_index": 0,
+                    "end_index": 0,
+                    "start_time": 1.02,
+                    "end_time": 1.13,
+                    "ipa": "h",
+                    "trans_arpabet": "HH",
+                    "decision": "incorrect",
+                    "nativeness_score": 10,
+                    "phoneme_error": "h - æ",
+                    "phoneme_error_arpabet": "HH - AE"
+                  },
+                  {
+                    "text": "E",
+                    "start_index": 1,
+                    "end_index": 1,
+                    "start_time": 1.13,
+                    "end_time": 1.1600000000000001,
+                    "ipa": "ɛ",
+                    "trans_arpabet": "EH",
+                    "decision": "correct",
+                    "nativeness_score": 93,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "LL",
+                    "start_index": 2,
+                    "end_index": 3,
+                    "start_time": 1.1600000000000001,
+                    "end_time": 1.25,
+                    "ipa": "l",
+                    "trans_arpabet": "L",
+                    "decision": "correct",
+                    "nativeness_score": 97,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "O",
+                    "start_index": 4,
+                    "end_index": 4,
+                    "start_time": 1.25,
+                    "end_time": 1.37,
+                    "ipa": "oʊ",
+                    "trans_arpabet": "OW",
+                    "decision": "correct",
+                    "nativeness_score": 97,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  }
+                ],
+                "word_stress": []
+              },
+              {
+                "start_index": 7,
+                "end_index": 8,
+                "start_time": 1.37,
+                "end_time": 1.5,
+                "word": "MY",
+                "text": "my",
+                "ipa": "maɪ",
+                "trans_arpabet": "M AY1",
+                "nativeness_score": 95,
+                "decision": "correct",
+                "phonemes": [
+                  {
+                    "text": "M",
+                    "start_index": 7,
+                    "end_index": 7,
+                    "start_time": 1.37,
+                    "end_time": 1.44,
+                    "ipa": "m",
+                    "trans_arpabet": "M",
+                    "decision": "correct",
+                    "nativeness_score": 98,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "Y",
+                    "start_index": 8,
+                    "end_index": 8,
+                    "start_time": 1.44,
+                    "end_time": 1.5,
+                    "ipa": "aɪ",
+                    "trans_arpabet": "AY",
+                    "decision": "correct",
+                    "nativeness_score": 93,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  }
+                ],
+                "word_stress": []
+              },
+              {
+                "start_index": 10,
+                "end_index": 13,
+                "start_time": 1.5,
+                "end_time": 1.6600000000000001,
+                "word": "NAME",
+                "text": "name",
+                "ipa": "neɪm",
+                "trans_arpabet": "N EY1 M",
+                "nativeness_score": 44,
+                "decision": "warning",
+                "phonemes": [
+                  {
+                    "text": "N",
+                    "start_index": 10,
+                    "end_index": 10,
+                    "start_time": 1.5,
+                    "end_time": 1.5499999999999998,
+                    "ipa": "n",
+                    "trans_arpabet": "N",
+                    "decision": "correct",
+                    "nativeness_score": 91,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "A",
+                    "start_index": 11,
+                    "end_index": 11,
+                    "start_time": 1.5499999999999998,
+                    "end_time": 1.6,
+                    "ipa": "eɪ",
+                    "trans_arpabet": "EY",
+                    "decision": "incorrect",
+                    "nativeness_score": 36,
+                    "phoneme_error": "eɪ - ɪ",
+                    "phoneme_error_arpabet": "EY - IH"
+                  },
+                  {
+                    "text": "ME",
+                    "start_index": 12,
+                    "end_index": 13,
+                    "start_time": 1.6,
+                    "end_time": 1.6600000000000001,
+                    "ipa": "m",
+                    "trans_arpabet": "M",
+                    "decision": "incorrect",
+                    "nativeness_score": 32,
+                    "phoneme_error": "m - n",
+                    "phoneme_error_arpabet": "M - N"
+                  }
+                ],
+                "word_stress": []
+              },
+              {
+                "start_index": 15,
+                "end_index": 16,
+                "start_time": 1.6600000000000001,
+                "end_time": 1.8399999999999999,
+                "word": "IS",
+                "text": "is",
+                "ipa": "ɪz",
+                "trans_arpabet": "IH1 Z",
+                "nativeness_score": 95,
+                "decision": "correct",
+                "phonemes": [
+                  {
+                    "text": "I",
+                    "start_index": 15,
+                    "end_index": 15,
+                    "start_time": 1.6600000000000001,
+                    "end_time": 1.73,
+                    "ipa": "ɪ",
+                    "trans_arpabet": "IH",
+                    "decision": "correct",
+                    "nativeness_score": 91,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "S",
+                    "start_index": 16,
+                    "end_index": 16,
+                    "start_time": 1.73,
+                    "end_time": 1.8399999999999999,
+                    "ipa": "z",
+                    "trans_arpabet": "Z",
+                    "decision": "correct",
+                    "nativeness_score": 98,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  }
+                ],
+                "word_stress": []
+              },
+              {
+                "start_index": 18,
+                "end_index": 19,
+                "start_time": 1.8399999999999999,
+                "end_time": 2.16,
+                "word": "AN",
+                "text": "an",
+                "ipa": "ən",
+                "trans_arpabet": "AH0 N",
+                "nativeness_score": 62,
+                "decision": "warning",
+                "phonemes": [
+                  {
+                    "text": "A",
+                    "start_index": 18,
+                    "end_index": 18,
+                    "start_time": 1.8399999999999999,
+                    "end_time": 2.05,
+                    "ipa": "ə",
+                    "trans_arpabet": "SCHWA",
+                    "decision": "incorrect",
+                    "nativeness_score": 39,
+                    "phoneme_error": "ə - j ɑ",
+                    "phoneme_error_arpabet": "SCHWA - Y AA"
+                  },
+                  {
+                    "text": "N",
+                    "start_index": 19,
+                    "end_index": 19,
+                    "start_time": 2.05,
+                    "end_time": 2.16,
+                    "ipa": "n",
+                    "trans_arpabet": "N",
+                    "decision": "correct",
+                    "nativeness_score": 100,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  }
+                ],
+                "word_stress": []
+              },
+              {
+                "start_index": 21,
+                "end_index": 21,
+                "start_time": 2.16,
+                "end_time": 2.26,
+                "word": "I",
+                "text": "I",
+                "ipa": "aɪ",
+                "trans_arpabet": "AY1",
+                "nativeness_score": 88,
+                "decision": "correct",
+                "phonemes": [
+                  {
+                    "text": "I",
+                    "start_index": 21,
+                    "end_index": 21,
+                    "start_time": 2.16,
+                    "end_time": 2.26,
+                    "ipa": "aɪ",
+                    "trans_arpabet": "AY",
+                    "decision": "correct",
+                    "nativeness_score": 88,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  }
+                ],
+                "word_stress": []
+              },
+              {
+                "start_index": 23,
+                "end_index": 26,
+                "start_time": 2.26,
+                "end_time": 2.4299999999999997,
+                "word": "LIVE",
+                "text": "live",
+                "ipa": "lɪv",
+                "trans_arpabet": "L IH1 V",
+                "nativeness_score": 98,
+                "decision": "correct",
+                "phonemes": [
+                  {
+                    "text": "L",
+                    "start_index": 23,
+                    "end_index": 23,
+                    "start_time": 2.26,
+                    "end_time": 2.31,
+                    "ipa": "l",
+                    "trans_arpabet": "L",
+                    "decision": "correct",
+                    "nativeness_score": 99,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "I",
+                    "start_index": 24,
+                    "end_index": 24,
+                    "start_time": 2.31,
+                    "end_time": 2.37,
+                    "ipa": "ɪ",
+                    "trans_arpabet": "IH",
+                    "decision": "correct",
+                    "nativeness_score": 99,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "VE",
+                    "start_index": 25,
+                    "end_index": 26,
+                    "start_time": 2.37,
+                    "end_time": 2.4299999999999997,
+                    "ipa": "v",
+                    "trans_arpabet": "V",
+                    "decision": "correct",
+                    "nativeness_score": 100,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  }
+                ],
+                "word_stress": []
+              },
+              {
+                "start_index": 28,
+                "end_index": 29,
+                "start_time": 2.4299999999999997,
+                "end_time": 2.57,
+                "word": "IN",
+                "text": "in",
+                "ipa": "ən",
+                "trans_arpabet": "AH0 N",
+                "nativeness_score": 96,
+                "decision": "correct",
+                "phonemes": [
+                  {
+                    "text": "I",
+                    "start_index": 28,
+                    "end_index": 28,
+                    "start_time": 2.4299999999999997,
+                    "end_time": 2.4899999999999998,
+                    "ipa": "ə",
+                    "trans_arpabet": "SCHWA",
+                    "decision": "correct",
+                    "nativeness_score": 95,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "N",
+                    "start_index": 29,
+                    "end_index": 29,
+                    "start_time": 2.4899999999999998,
+                    "end_time": 2.57,
+                    "ipa": "n",
+                    "trans_arpabet": "N",
+                    "decision": "correct",
+                    "nativeness_score": 99,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  }
+                ],
+                "word_stress": []
+              },
+              {
+                "start_index": 31,
+                "end_index": 32,
+                "start_time": 2.57,
+                "end_time": 3.61,
+                "word": "SO",
+                "text": "so",
+                "ipa": "soʊ",
+                "trans_arpabet": "S OW1",
+                "nativeness_score": 88,
+                "decision": "correct",
+                "phonemes": [
+                  {
+                    "text": "S",
+                    "start_index": 31,
+                    "end_index": 31,
+                    "start_time": 2.57,
+                    "end_time": 2.6799999999999997,
+                    "ipa": "s",
+                    "trans_arpabet": "S",
+                    "decision": "correct",
+                    "nativeness_score": 94,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "O",
+                    "start_index": 32,
+                    "end_index": 32,
+                    "start_time": 2.6799999999999997,
+                    "end_time": 3.61,
+                    "ipa": "oʊ",
+                    "trans_arpabet": "OW",
+                    "decision": "correct",
+                    "nativeness_score": 82,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  }
+                ],
+                "word_stress": []
+              },
+              {
+                "start_index": 34,
+                "end_index": 36,
+                "start_time": 3.6599999999999997,
+                "end_time": 3.92,
+                "word": "I'M",
+                "text": "I'm",
+                "ipa": "aɪm",
+                "trans_arpabet": "AY1 M",
+                "nativeness_score": 98,
+                "decision": "correct",
+                "phonemes": [
+                  {
+                    "text": "I",
+                    "start_index": 34,
+                    "end_index": 34,
+                    "start_time": 3.6599999999999997,
+                    "end_time": 3.81,
+                    "ipa": "aɪ",
+                    "trans_arpabet": "AY",
+                    "decision": "correct",
+                    "nativeness_score": 99,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "'M",
+                    "start_index": 35,
+                    "end_index": 36,
+                    "start_time": 3.81,
+                    "end_time": 3.92,
+                    "ipa": "m",
+                    "trans_arpabet": "M",
+                    "decision": "correct",
+                    "nativeness_score": 97,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  }
+                ],
+                "word_stress": []
+              },
+              {
+                "start_index": 38,
+                "end_index": 43,
+                "start_time": 3.92,
+                "end_time": 4.59,
+                "word": "GERMAN",
+                "text": "German",
+                "ipa": "ˈdʒɝ.mən",
+                "trans_arpabet": "JH ER1 M AH0 N",
+                "nativeness_score": 63,
+                "decision": "warning",
+                "phonemes": [
+                  {
+                    "text": "G",
+                    "start_index": 38,
+                    "end_index": 38,
+                    "start_time": 3.92,
+                    "end_time": 4,
+                    "ipa": "dʒ",
+                    "trans_arpabet": "JH",
+                    "decision": "incorrect",
+                    "nativeness_score": 6,
+                    "phoneme_error": "dʒ - t",
+                    "phoneme_error_arpabet": "JH - T"
+                  },
+                  {
+                    "text": "ER",
+                    "start_index": 39,
+                    "end_index": 40,
+                    "start_time": 4,
+                    "end_time": 4.16,
+                    "ipa": "ɝ",
+                    "trans_arpabet": "ER",
+                    "decision": "correct",
+                    "nativeness_score": 92,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "M",
+                    "start_index": 41,
+                    "end_index": 41,
+                    "start_time": 4.16,
+                    "end_time": 4.24,
+                    "ipa": "m",
+                    "trans_arpabet": "M",
+                    "decision": "correct",
+                    "nativeness_score": 100,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "A",
+                    "start_index": 42,
+                    "end_index": 42,
+                    "start_time": 4.24,
+                    "end_time": 4.41,
+                    "ipa": "ə",
+                    "trans_arpabet": "SCHWA",
+                    "decision": "correct",
+                    "nativeness_score": 94,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "N",
+                    "start_index": 43,
+                    "end_index": 43,
+                    "start_time": 4.41,
+                    "end_time": 4.59,
+                    "ipa": "n",
+                    "trans_arpabet": "N",
+                    "decision": "correct",
+                    "nativeness_score": 97,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  }
+                ],
+                "word_stress": []
+              },
+              {
+                "start_index": 45,
+                "end_index": 52,
+                "start_time": 4.59,
+                "end_time": 5.3999999999999995,
+                "word": "AMERICAN",
+                "text": "American",
+                "ipa": "əˈmɛ.rɪ.kən",
+                "trans_arpabet": "AH0 M EH1 R IH0 K AH0 N",
+                "nativeness_score": 97,
+                "decision": "correct",
+                "phonemes": [
+                  {
+                    "text": "A",
+                    "start_index": 45,
+                    "end_index": 45,
+                    "start_time": 4.59,
+                    "end_time": 4.63,
+                    "ipa": "ə",
+                    "trans_arpabet": "SCHWA",
+                    "decision": "correct",
+                    "nativeness_score": 100,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "M",
+                    "start_index": 46,
+                    "end_index": 46,
+                    "start_time": 4.63,
+                    "end_time": 4.7,
+                    "ipa": "m",
+                    "trans_arpabet": "M",
+                    "decision": "correct",
+                    "nativeness_score": 100,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "E",
+                    "start_index": 47,
+                    "end_index": 47,
+                    "start_time": 4.7,
+                    "end_time": 4.77,
+                    "ipa": "ɛ",
+                    "trans_arpabet": "EH",
+                    "decision": "correct",
+                    "nativeness_score": 100,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "R",
+                    "start_index": 48,
+                    "end_index": 48,
+                    "start_time": 4.77,
+                    "end_time": 4.83,
+                    "ipa": "r",
+                    "trans_arpabet": "R",
+                    "decision": "correct",
+                    "nativeness_score": 99,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "I",
+                    "start_index": 49,
+                    "end_index": 49,
+                    "start_time": 4.83,
+                    "end_time": 4.9399999999999995,
+                    "ipa": "ɪ",
+                    "trans_arpabet": "IH",
+                    "decision": "correct",
+                    "nativeness_score": 93,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "C",
+                    "start_index": 50,
+                    "end_index": 50,
+                    "start_time": 4.9399999999999995,
+                    "end_time": 5.02,
+                    "ipa": "k",
+                    "trans_arpabet": "K",
+                    "decision": "correct",
+                    "nativeness_score": 100,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "A",
+                    "start_index": 51,
+                    "end_index": 51,
+                    "start_time": 5.02,
+                    "end_time": 5.17,
+                    "ipa": "ə",
+                    "trans_arpabet": "SCHWA",
+                    "decision": "correct",
+                    "nativeness_score": 94,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "N",
+                    "start_index": 52,
+                    "end_index": 52,
+                    "start_time": 5.17,
+                    "end_time": 5.3999999999999995,
+                    "ipa": "n",
+                    "trans_arpabet": "N",
+                    "decision": "correct",
+                    "nativeness_score": 98,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  }
+                ],
+                "word_stress": []
+              },
+              {
+                "start_index": 55,
+                "end_index": 57,
+                "start_time": 5.3999999999999995,
+                "end_time": 5.74,
+                "word": "AND",
+                "text": "and",
+                "ipa": "ænd",
+                "trans_arpabet": "AE1 N D",
+                "nativeness_score": 98,
+                "decision": "correct",
+                "phonemes": [
+                  {
+                    "text": "A",
+                    "start_index": 55,
+                    "end_index": 55,
+                    "start_time": 5.3999999999999995,
+                    "end_time": 5.6,
+                    "ipa": "æ",
+                    "trans_arpabet": "AE",
+                    "decision": "correct",
+                    "nativeness_score": 100,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "N",
+                    "start_index": 56,
+                    "end_index": 56,
+                    "start_time": 5.6,
+                    "end_time": 5.6499999999999995,
+                    "ipa": "n",
+                    "trans_arpabet": "N",
+                    "decision": "correct",
+                    "nativeness_score": 100,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "D",
+                    "start_index": 57,
+                    "end_index": 57,
+                    "start_time": 5.6499999999999995,
+                    "end_time": 5.74,
+                    "ipa": "d",
+                    "trans_arpabet": "D",
+                    "decision": "correct",
+                    "nativeness_score": 99,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  }
+                ],
+                "word_stress": []
+              },
+              {
+                "start_index": 59,
+                "end_index": 59,
+                "start_time": 5.74,
+                "end_time": 5.83,
+                "word": "I",
+                "text": "I",
+                "ipa": "aɪ",
+                "trans_arpabet": "AY1",
+                "nativeness_score": 98,
+                "decision": "correct",
+                "phonemes": [
+                  {
+                    "text": "I",
+                    "start_index": 59,
+                    "end_index": 59,
+                    "start_time": 5.74,
+                    "end_time": 5.83,
+                    "ipa": "aɪ",
+                    "trans_arpabet": "AY",
+                    "decision": "correct",
+                    "nativeness_score": 100,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  }
+                ],
+                "word_stress": []
+              },
+              {
+                "start_index": 61,
+                "end_index": 62,
+                "start_time": 5.83,
+                "end_time": 5.97,
+                "word": "AM",
+                "text": "am",
+                "ipa": "æm",
+                "trans_arpabet": "AE1 M",
+                "nativeness_score": 98,
+                "decision": "correct",
+                "phonemes": [
+                  {
+                    "text": "A",
+                    "start_index": 61,
+                    "end_index": 61,
+                    "start_time": 5.83,
+                    "end_time": 5.88,
+                    "ipa": "æ",
+                    "trans_arpabet": "AE",
+                    "decision": "correct",
+                    "nativeness_score": 98,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "M",
+                    "start_index": 62,
+                    "end_index": 62,
+                    "start_time": 5.88,
+                    "end_time": 5.97,
+                    "ipa": "m",
+                    "trans_arpabet": "M",
+                    "decision": "correct",
+                    "nativeness_score": 100,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  }
+                ],
+                "word_stress": []
+              },
+              {
+                "start_index": 64,
+                "end_index": 70,
+                "start_time": 5.97,
+                "end_time": 6.31,
+                "word": "WORKING",
+                "text": "working",
+                "ipa": "ˈwɝ.kɪŋ",
+                "trans_arpabet": "W ER1 K IH0 NG",
+                "nativeness_score": 71,
+                "decision": "warning",
+                "phonemes": [
+                  {
+                    "text": "W",
+                    "start_index": 64,
+                    "end_index": 64,
+                    "start_time": 5.97,
+                    "end_time": 6.03,
+                    "ipa": "w",
+                    "trans_arpabet": "W",
+                    "decision": "incorrect",
+                    "nativeness_score": 26,
+                    "phoneme_error": "w - b",
+                    "phoneme_error_arpabet": "W - B"
+                  },
+                  {
+                    "text": "OR",
+                    "start_index": 65,
+                    "end_index": 66,
+                    "start_time": 6.03,
+                    "end_time": 6.1,
+                    "ipa": "ɝ",
+                    "trans_arpabet": "ER",
+                    "decision": "correct",
+                    "nativeness_score": 94,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "K",
+                    "start_index": 67,
+                    "end_index": 67,
+                    "start_time": 6.1,
+                    "end_time": 6.18,
+                    "ipa": "k",
+                    "trans_arpabet": "K",
+                    "decision": "correct",
+                    "nativeness_score": 100,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "I",
+                    "start_index": 68,
+                    "end_index": 68,
+                    "start_time": 6.18,
+                    "end_time": 6.25,
+                    "ipa": "ɪ",
+                    "trans_arpabet": "IH",
+                    "decision": "correct",
+                    "nativeness_score": 97,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "NG",
+                    "start_index": 69,
+                    "end_index": 70,
+                    "start_time": 6.25,
+                    "end_time": 6.31,
+                    "ipa": "ŋ",
+                    "trans_arpabet": "NG",
+                    "decision": "correct",
+                    "nativeness_score": 80,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  }
+                ],
+                "word_stress": []
+              },
+              {
+                "start_index": 72,
+                "end_index": 75,
+                "start_time": 6.31,
+                "end_time": 6.49,
+                "word": "HERE",
+                "text": "here",
+                "ipa": "hir",
+                "trans_arpabet": "HH IY1 R",
+                "nativeness_score": 24,
+                "decision": "incorrect",
+                "phonemes": [
+                  {
+                    "text": "H",
+                    "start_index": 72,
+                    "end_index": 72,
+                    "start_time": 6.31,
+                    "end_time": 6.35,
+                    "ipa": "h",
+                    "trans_arpabet": "HH",
+                    "decision": "incorrect",
+                    "nativeness_score": 30,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "E",
+                    "start_index": 73,
+                    "end_index": 73,
+                    "start_time": 6.35,
+                    "end_time": 6.42,
+                    "ipa": "i",
+                    "trans_arpabet": "IY",
+                    "decision": "incorrect",
+                    "nativeness_score": 32,
+                    "phoneme_error": "i - ɪ",
+                    "phoneme_error_arpabet": "IY - IH"
+                  },
+                  {
+                    "text": "RE",
+                    "start_index": 74,
+                    "end_index": 75,
+                    "start_time": 6.42,
+                    "end_time": 6.49,
+                    "ipa": "r",
+                    "trans_arpabet": "R",
+                    "decision": "incorrect",
+                    "nativeness_score": 8,
+                    "phoneme_error": "r - t",
+                    "phoneme_error_arpabet": "R - T"
+                  }
+                ],
+                "word_stress": []
+              },
+              {
+                "start_index": 77,
+                "end_index": 80,
+                "start_time": 6.49,
+                "end_time": 6.63,
+                "word": "WITH",
+                "text": "with",
+                "ipa": "wɪθ",
+                "trans_arpabet": "W IH1 TH",
+                "nativeness_score": 43,
+                "decision": "warning",
+                "phonemes": [
+                  {
+                    "text": "W",
+                    "start_index": 77,
+                    "end_index": 77,
+                    "start_time": 6.49,
+                    "end_time": 6.52,
+                    "ipa": "w",
+                    "trans_arpabet": "W",
+                    "decision": "correct",
+                    "nativeness_score": 100,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "I",
+                    "start_index": 78,
+                    "end_index": 78,
+                    "start_time": 6.52,
+                    "end_time": 6.58,
+                    "ipa": "ɪ",
+                    "trans_arpabet": "IH",
+                    "decision": "correct",
+                    "nativeness_score": 97,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "TH",
+                    "start_index": 79,
+                    "end_index": 80,
+                    "start_time": 6.58,
+                    "end_time": 6.63,
+                    "ipa": "θ",
+                    "trans_arpabet": "TH",
+                    "decision": "incorrect",
+                    "nativeness_score": 0,
+                    "phoneme_error": "θ - z",
+                    "phoneme_error_arpabet": "TH - Z"
+                  }
+                ],
+                "word_stress": []
+              },
+              {
+                "start_index": 82,
+                "end_index": 82,
+                "start_time": 6.63,
+                "end_time": 6.68,
+                "word": "A",
+                "text": "a",
+                "ipa": "ə",
+                "trans_arpabet": "AH0",
+                "nativeness_score": 98,
+                "decision": "correct",
+                "phonemes": [
+                  {
+                    "text": "A",
+                    "start_index": 82,
+                    "end_index": 82,
+                    "start_time": 6.63,
+                    "end_time": 6.68,
+                    "ipa": "ə",
+                    "trans_arpabet": "SCHWA",
+                    "decision": "correct",
+                    "nativeness_score": 100,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  }
+                ],
+                "word_stress": []
+              },
+              {
+                "start_index": 84,
+                "end_index": 88,
+                "start_time": 6.68,
+                "end_time": 6.97,
+                "word": "GREAT",
+                "text": "great",
+                "ipa": "greɪt",
+                "trans_arpabet": "G R EY1 T",
+                "nativeness_score": 98,
+                "decision": "correct",
+                "phonemes": [
+                  {
+                    "text": "G",
+                    "start_index": 84,
+                    "end_index": 84,
+                    "start_time": 6.68,
+                    "end_time": 6.75,
+                    "ipa": "g",
+                    "trans_arpabet": "G",
+                    "decision": "correct",
+                    "nativeness_score": 100,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "R",
+                    "start_index": 85,
+                    "end_index": 85,
+                    "start_time": 6.75,
+                    "end_time": 6.82,
+                    "ipa": "r",
+                    "trans_arpabet": "R",
+                    "decision": "correct",
+                    "nativeness_score": 100,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "EA",
+                    "start_index": 86,
+                    "end_index": 87,
+                    "start_time": 6.82,
+                    "end_time": 6.8999999999999995,
+                    "ipa": "eɪ",
+                    "trans_arpabet": "EY",
+                    "decision": "correct",
+                    "nativeness_score": 100,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "T",
+                    "start_index": 88,
+                    "end_index": 88,
+                    "start_time": 6.8999999999999995,
+                    "end_time": 6.97,
+                    "ipa": "t",
+                    "trans_arpabet": "T",
+                    "decision": "correct",
+                    "nativeness_score": 98,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  }
+                ],
+                "word_stress": []
+              },
+              {
+                "start_index": 90,
+                "end_index": 93,
+                "start_time": 6.97,
+                "end_time": 7.27,
+                "word": "TEAM",
+                "text": "team",
+                "ipa": "tim",
+                "trans_arpabet": "T IY1 M",
+                "nativeness_score": 98,
+                "decision": "correct",
+                "phonemes": [
+                  {
+                    "text": "T",
+                    "start_index": 90,
+                    "end_index": 90,
+                    "start_time": 6.97,
+                    "end_time": 7.06,
+                    "ipa": "t",
+                    "trans_arpabet": "T",
+                    "decision": "correct",
+                    "nativeness_score": 98,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "EA",
+                    "start_index": 91,
+                    "end_index": 92,
+                    "start_time": 7.06,
+                    "end_time": 7.1899999999999995,
+                    "ipa": "i",
+                    "trans_arpabet": "IY",
+                    "decision": "correct",
+                    "nativeness_score": 100,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "M",
+                    "start_index": 93,
+                    "end_index": 93,
+                    "start_time": 7.1899999999999995,
+                    "end_time": 7.27,
+                    "ipa": "m",
+                    "trans_arpabet": "M",
+                    "decision": "correct",
+                    "nativeness_score": 99,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  }
+                ],
+                "word_stress": []
+              },
+              {
+                "start_index": 95,
+                "end_index": 96,
+                "start_time": 7.27,
+                "end_time": 7.41,
+                "word": "IN",
+                "text": "in",
+                "ipa": "ən",
+                "trans_arpabet": "AH0 N",
+                "nativeness_score": 96,
+                "decision": "correct",
+                "phonemes": [
+                  {
+                    "text": "I",
+                    "start_index": 95,
+                    "end_index": 95,
+                    "start_time": 7.27,
+                    "end_time": 7.33,
+                    "ipa": "ə",
+                    "trans_arpabet": "SCHWA",
+                    "decision": "correct",
+                    "nativeness_score": 94,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "N",
+                    "start_index": 96,
+                    "end_index": 96,
+                    "start_time": 7.33,
+                    "end_time": 7.41,
+                    "ipa": "n",
+                    "trans_arpabet": "N",
+                    "decision": "correct",
+                    "nativeness_score": 99,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  }
+                ],
+                "word_stress": []
+              },
+              {
+                "start_index": 98,
+                "end_index": 99,
+                "start_time": 7.41,
+                "end_time": 7.84,
+                "word": "PO",
+                "text": "PO",
+                "ipa": "poʊ",
+                "trans_arpabet": "P OW1",
+                "nativeness_score": 42,
+                "decision": "warning",
+                "phonemes": [
+                  {
+                    "text": "P",
+                    "start_index": 98,
+                    "end_index": 98,
+                    "start_time": 7.41,
+                    "end_time": 7.56,
+                    "ipa": "p",
+                    "trans_arpabet": "P",
+                    "decision": "warning",
+                    "nativeness_score": 42,
+                    "phoneme_error": "normal",
+                    "phoneme_error_arpabet": "normal"
+                  },
+                  {
+                    "text": "O",
+                    "start_index": 99,
+                    "end_index": 99,
+                    "start_time": 7.56,
+                    "end_time": 7.84,
+                    "ipa": "oʊ",
+                    "trans_arpabet": "OW",
+                    "decision": "warning",
+                    "nativeness_score": 42,
+                    "phoneme_error": "oʊ - oʊ i",
+                    "phoneme_error_arpabet": "OW - OW IY"
+                  }
+                ],
+                "word_stress": []
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "transcript": "Hello, my name is an I live in so I'm German American, and I am working here with a great team in PO.",
+  "timeline": [
+    {
+      "speaker_id": 0,
+      "utterance_id": 0,
+      "start_time": 1.02,
+      "end_time": 7.84,
+      "start_index": 0,
+      "end_index": 100
+    }
+  ],
+  "api_version": "1.0",
+  "api_plan": "premium",
+  "recording_quality": "ok",
+  "assessment_quality": "short",
+  "total_time": 8.6,
+  "success": true
+}
